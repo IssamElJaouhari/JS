@@ -109,21 +109,21 @@
 
 
 
-var numbers = [19, 65, 1, 2, 6, 1, 9, 9, 2, 1]; 
+// var numbers = [19, 65, 1, 2, 6, 1, 9, 9, 2, 1]; 
 
-var sum = 0;
+// var sum = 0;
 
 
-// for(let i =0;i<length;i++)
-// Using the for… of loop
+// // for(let i =0;i<length;i++)
+// // Using the for… of loop
 
-for ( var i in numbers) {
+// for ( var i in numbers) {
 
-    sum += i;
+//     sum += i;
 
-}
+// }
 
-console.log(sum)
+// console.log(sum)
 
 
 
@@ -241,4 +241,44 @@ console.log(sum)
 
 
 
+
+
+
+
+
+
+
+// var days=['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
+
+// console.log("before",days)
+
+
+// delete days[0]
+// console.log(days[0])
+// console.log("tant que",days)
+
+// days[0]="tnin"
+// console.log("after",days)
+
+
+const person = {
+    ffname : "issal elj",
+        
+    race: "i'm",
+
+    weapon: " 4yo" ,
+x:[1,2,3,"issam"],
+    soukayna: function() {
+
+        return this.race + this.weapon;
+
+    },
+
+    
+};
+// console.log(person["weapon"]);
+// console.log(person.weapon);
+
+console.log(person.soukayna()); 
+console.log(person.x[3]); 
 
