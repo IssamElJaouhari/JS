@@ -109,21 +109,21 @@
 
 
 
-// var numbers = [19, 65, 1, 2, 6, 1, 9, 9, 2, 1]; 
+var numbers = [19, 65, 1, 2, 6, 1, 9, 9, 2, 1]; 
 
-// var sum = 0;
+var sum = 0;
 
 
+// for(let i =0;i<length;i++)
+// Using the for… of loop
 
-// // Using the for… of loop
+for ( var i in numbers) {
 
-// for ( var i in numbers) {
+    sum += i;
 
-//     sum += i;
+}
 
-// }
-
-// console.log(sum)
+console.log(sum)
 
 
 
