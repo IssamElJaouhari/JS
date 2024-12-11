@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple DOM Exercise</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin: 20px;
+      }
+      #container {
+        border: 1px solid #ccc;
+        padding: 20px;
+        margin: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Welcome to DOM</h1>
+
+    <button onclick="addtext()">Add Text</button>
+    <button onclick="addcntr()">Add Box</button>
+    <div id="container"></div>
+    <!-- <script>
+      const container = document.getElementById("container");
+
+      function addtext() {
+        const pr = document.createElement("p");
+        pr.textContent = "hello i'm a pragraph";
+
+        pr.style.color = `#${Math.floor(Math.random() * 15777212).toString(
+          16
+        )}`;
+        pr.style.textDecoration = "underline";
+        pr.style.fontFamily = "Impact,Charcoal,sans-serif";
+
+        container.appendChild(pr);
+      }
+
+      function addcntr() {
+        const cntr = document.createElement("div");
+        cntr.style.width = "100px";
+        cntr.style.height = "100px";
+        cntr.style.margin = "10px auto";
+
+        cntr.style.background = `#${Math.floor(
+          Math.random() * 15777212
+        ).toString(16)}`;
+        container.appendChild(cntr);
+      }
+    </script> -->
+  </body>
+</html>

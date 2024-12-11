@@ -135,9 +135,7 @@
 
 // var sum = 0;
 
-// for ( var i in numbers ) {
-
-//         if ( i % 2 == 0 ) continue;
+//  hint       if ( i % 2 == 0 ) continue;
 
 //         sum += numbers[i]
 
@@ -261,24 +259,24 @@
 // console.log("after",days)
 
 
-const person = {
-    ffname : "issal elj",
+// const person = {
+//     ffname : "issal elj",
         
-    race: "i'm",
+//     race: "i'm",
 
-    weapon: " 4yo" ,
-x:[1,2,3,"issam"],
-    soukayna: function() {
+//     weapon: " 4yo" ,
+// x:[1,2,3,"issam"],
+//     soukayna: function() {
 
-        return this.race + this.weapon;
+//         return this.race + this.weapon;
 
-    },
+//     },
 
     
-};
-// console.log(person["weapon"]);
-// console.log(person.weapon);
+// };
+// // console.log(person["weapon"]);
+// // console.log(person.weapon);
 
-console.log(person.soukayna()); 
-console.log(person.x[3]); 
+// console.log(person.soukayna()); 
+// console.log(person.x[3]); 
 
